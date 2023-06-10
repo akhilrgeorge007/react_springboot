@@ -1,0 +1,129 @@
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #4C9EAA;;
+  }
+
+.full-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    padding: 18px;
+}
+
+.filter{
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.dropdown{
+    position: absolute;
+    z-index: 100;
+    width:20%;
+    background-color: #fff;
+    right: 60px;
+    top: 50px;
+    margin-top: 5%;
+    border: 3px solid darkgrey;
+}
+
+label{
+    display: flex;
+    padding-bottom: 20px;
+    padding-left: 28px;
+    font-size: 18px;
+    font-weight: 450;
+    
+}
+
+.dropdown h3{
+    background-color: #E9FFFD ;
+    margin: 0px;
+    padding: 20px;
+    padding-left: 33px;
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+input[type=checkbox]{
+    accent-color: #4C9EAA ;
+    padding: 0;
+    width: 15%;
+    margin-left: 0;
+}
+
+.filter-button{
+    width: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    object-fit: cover;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    background: none;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    }
+
+.table-container {
+  margin: 20px;
+  width:100%;
+  height: 500px; /* Set the desired height for the scrollable container */
+  overflow: auto; /* Enable vertical scrolling */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+thead{
+    position: sticky; 
+    top: 0;
+    line-height: 25px;
+    font-size: 22px;
+}
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    line-height: 35px;
+  }
+
+  tbody{
+    overflow-y: scroll;
+  }
+  
+  th {
+    background-color: #4C9EAA;
+    color: #fff;
+    font-weight: bold;
+  }
+  tbody tr{
+    height: 80px;
+  }
+  tr:nth-child(even) {
+    background-color: #E9FFFD;
+  }
+  
+ 
+  
+  
