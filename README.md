@@ -6,10 +6,10 @@ UI is done using ReactJs. Backend is done using Springboot
 
 Before running this project, ensure that you have the following installed on your machine:
 
-- Node.js
-- npm 
-- Java Development Kit (JDK)
-- Maven
+- Node - (v16.16.0)
+- npm - (8.11.0)
+- Java Development Kit (JDK) - (11.0.15)
+- Maven - (apache-maven-3.9.2)
 
 ## Installation
 
