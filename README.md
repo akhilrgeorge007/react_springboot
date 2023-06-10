@@ -49,4 +49,7 @@ The React frontend will be running on http://localhost:3000
     
 The Spring Boot backend will be running on http://localhost:8080.
     
+Update the Java version in pom.xml file if required
+
+
 Dummy data is added in healspanspringboot/src/main/resources/data.json file
